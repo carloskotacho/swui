@@ -5,16 +5,18 @@ import { NgModule } from '@angular/core';
 import { TabViewModule } from 'primeng/tabview';
 
 import { AppComponent } from './app.component';
-
+import { PersonsModule } from './persons/persons.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    TabViewModule
+    TabViewModule,
+
+    PersonsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

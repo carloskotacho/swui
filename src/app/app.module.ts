@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { PersonsModule } from './persons/persons.module';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { PersonsModule } from './persons/persons.module';
     BrowserModule,
     BrowserAnimationsModule,
 
-    PersonsModule
+    PersonsModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

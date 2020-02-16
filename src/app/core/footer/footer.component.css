@@ -1,0 +1,23 @@
+.copy{
+  text-align: center;
+  font: 12px "helvetica neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.05em;
+  color: #485059;
+  border-top: 1px solid #485059;
+  padding-top: 1.5em;
+  display: block;
+}
+
+.page-footer{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+ .page-footer{
+    position: absolute;
+  }
+}

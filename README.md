@@ -1,6 +1,6 @@
 ![swui](https://user-images.githubusercontent.com/22691244/74576726-e2e4e200-4f6a-11ea-9eeb-7d4ec85ea270.png)
 
-## Contribuindo
+## Contributing
 
 [![0](https://sourcerer.io/fame/carloskotacho/carloskotacho/swui/images/0)](https://sourcerer.io/fame/carloskotacho/carloskotacho/swui/links/0)
 [![1](https://sourcerer.io/fame/carloskotacho/carloskotacho/swui/images/1)](https://sourcerer.io/fame/carloskotacho/carloskotacho/swui/links/1)

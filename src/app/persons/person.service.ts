@@ -8,7 +8,6 @@ import { environment } from './../../environments/environment.prod';
 export class PersonFilter {
   search: string;
   page = 0;
-  itemsForPage = 5;
 }
 
 @Injectable()
@@ -28,7 +27,6 @@ export class PersonService {
     const params = new URLSearchParams();
 
     params.set('page', filter.page.toString());
-    params.set('count', filter.itemsForPage.toString());
 
     if (filter.search) {
       params.set('search', filter.search);
@@ -42,7 +40,7 @@ export class PersonService {
 
         const result = {
           persons,
-          total: responseJson.count
+          count: responseJson.count
         };
 
         return result;

@@ -22,7 +22,8 @@
 
   <div class="ui-g">
     <div class="ui-g-12">
-      <p-table [value]="persons" [paginator]="true" [rows]="filter.itemsForPage" [responsive]="true" [lazy]="true" [totalRecords]="count" (onLazyLoad)="whenChangingPages($event)">
+      <p-table [value]="persons" [paginator]="true" [rows]="10" [responsive]="true" [lazy]="true"
+       [totalRecords]="totalRecords" (onLazyLoad)="whenChangingPages($event)">
         <ng-template pTemplate="emptymessage">
           No people found
         </ng-template>

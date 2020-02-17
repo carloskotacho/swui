@@ -21,8 +21,8 @@ export class PersonService {
 
   search(filter: PersonFilter): Promise<any> {
 
-    const headers = new Headers();
-    headers.append('Content-Type', 'application/json');
+    // const headers = new Headers();
+    // headers.append('Content-Type', 'application/json');
 
     const params = new URLSearchParams();
 
@@ -32,7 +32,7 @@ export class PersonService {
       params.set('search', filter.search);
     }
 
-    return this.http.get(`${this.personsUrl}`, { headers, params })
+    return this.http.get(`${this.personsUrl}`, { search: params })
       .toPromise()
       .then(response => {
         const responseJson = response.json();

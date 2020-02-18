@@ -19,8 +19,8 @@ export class PersonSearchComponent implements OnInit {
 
   search() {
     this.personService.search()
-      .then(data => {
-        this.persons = data;
+      .then(persons => {
+        this.persons = persons;
       });
   }
 }

@@ -3,7 +3,9 @@ import { Http } from '@angular/http';
 
 import 'rxjs/add/operator/toPromise';
 
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class PersonService {
 
   constructor(private http: Http) {}

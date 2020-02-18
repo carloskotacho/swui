@@ -8,6 +8,8 @@ import { TableModule } from 'primeng/components/table/table';
 import { TooltipModule } from 'primeng/tooltip';
 
 import { PersonSearchComponent } from './person-search/person-search.component';
+import { PersonsRoutingModule } from './persons-routing.module';
+
 
 @NgModule({
   imports: [
@@ -17,10 +19,11 @@ import { PersonSearchComponent } from './person-search/person-search.component';
     InputTextModule,
     ButtonModule,
     TableModule,
-    TooltipModule
+    TooltipModule,
+    PersonsRoutingModule
   ],
   declarations: [
-    PersonSearchComponent
+    PersonSearchComponent,
   ],
   exports: [
     PersonSearchComponent

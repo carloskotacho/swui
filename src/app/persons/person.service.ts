@@ -1,7 +1,16 @@
 import { Injectable } from '@angular/core';
+import { Http } from '@angular/http';
+
+import 'rxjs/add/operator/toPromise';
 
 @Injectable()
 export class PersonService {
 
-  constructor() {}
+  constructor(private http: Http) {}
+
+  search(): Promise<any> {
+    return this.http.get('http://localhost:3000/people')
+      .toPromise()
+      .then(response => response.json());
+  }
 }

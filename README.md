@@ -1,4 +1,6 @@
-![swui](https://user-images.githubusercontent.com/22691244/74576726-e2e4e200-4f6a-11ea-9eeb-7d4ec85ea270.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22691244/74758230-d2c44f80-5255-11ea-9065-868a194a45b8.png" width="150" title="Swui Logo">
+</p>
 
 ## Contributing
 

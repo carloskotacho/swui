@@ -2,6 +2,11 @@
   <img src="https://user-images.githubusercontent.com/22691244/74758230-d2c44f80-5255-11ea-9065-868a194a45b8.png" width="150" title="Swui Logo">
 </p>
 
+## Libs
+
+- [Star Wars Glyph Icons](http://www.starwarsglyphicons.com)
+- [PrimeNG](https://www.primefaces.org/primeng/#/)
+
 ## Contributing
 
 [![0](https://sourcerer.io/fame/carloskotacho/carloskotacho/swui/images/0)](https://sourcerer.io/fame/carloskotacho/carloskotacho/swui/links/0)

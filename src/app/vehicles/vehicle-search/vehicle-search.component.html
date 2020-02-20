@@ -29,33 +29,33 @@
 
         <ng-template pTemplate="header">
           <tr>
-            <th><p-scrollPanel [style]="{width: '100%', height: '60px'}">Name</p-scrollPanel></th>
-            <th><p-scrollPanel [style]="{width: '100%', height: '60px'}">Model</p-scrollPanel></th>
-            <th pTooltip="Manufacturer" tooltipPosition="top"><p-scrollPanel [style]="{width: '100%', height: '60px'}">Manufact.</p-scrollPanel></th>
-            <th pTooltip="Cost In Credits" tooltipPosition="top"><p-scrollPanel [style]="{width: '100%', height: '60px'}">C. in cred.</p-scrollPanel></th>
-            <th><p-scrollPanel [style]="{width: '100%', height: '60px'}">Length</p-scrollPanel></th>
-            <th pTooltip="Max Atmosphering Speed" tooltipPosition="top"><p-scrollPanel [style]="{width: '100%', height: '60px'}">M. Atm.</p-scrollPanel></th>
-            <th><p-scrollPanel [style]="{width: '100%', height: '60px'}">Crew</p-scrollPanel></th>
-            <th><p-scrollPanel [style]="{width: '100%', height: '60px'}">Passengers</p-scrollPanel></th>
-            <th pTooltip="Cargo Capacity" tooltipPosition="top"><p-scrollPanel [style]="{width: '100%', height: '60px'}">C. Capacity</p-scrollPanel></th>
-            <th><p-scrollPanel [style]="{width: '100%', height: '60px'}">Consumables</p-scrollPanel></th>
-            <th pTooltip="Vehicle Class" tooltipPosition="top"><p-scrollPanel [style]="{width: '100%', height: '60px'}">V. Class</p-scrollPanel></th>
+            <th>Name</th>
+            <th>Model</th>
+            <th pTooltip="Manufacturer" tooltipPosition="top">Manuf.</th>
+            <th pTooltip="Cost In Credits" tooltipPosition="top">C. Cred.</th>
+            <th>Length</th>
+            <th pTooltip="Max Atmosphering Speed" tooltipPosition="top">M. Atm.</th>
+            <th>Crew</th>
+            <th>Passengers</th>
+            <th pTooltip="Cargo Capacity" tooltipPosition="top">C. C.</th>
+            <th pTooltip="Consumables" tooltipPosition="top">Consu.</th>
+            <th pTooltip="Vehicle Class" tooltipPosition="top">V. Class</th>
           </tr>
         </ng-template>
 
         <ng-template pTemplate="body" let-vehicles>
           <tr>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ vehicles.name }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ vehicles.model }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ vehicles.manufacturer }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ vehicles.cost_in_credits }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ vehicles.length }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ vehicles.max_atmosphering_speed }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ vehicles.crew }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ vehicles.passengers }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ vehicles.cargo_capacity }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ vehicles.consumables }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ vehicles.vehicle_class }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ vehicles.name }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ vehicles.model }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ vehicles.manufacturer }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ vehicles.cost_in_credits }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ vehicles.length }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ vehicles.max_atmosphering_speed }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ vehicles.crew }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ vehicles.passengers }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ vehicles.cargo_capacity }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ vehicles.consumables }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ vehicles.vehicle_class }}</p-scrollPanel></td>
           </tr>
         </ng-template>
       </p-table>

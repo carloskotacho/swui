@@ -29,37 +29,37 @@
 
         <ng-template pTemplate="header">
           <tr>
-            <th><p-scrollPanel [style]="{width: '100%', height: '60px'}">Name</p-scrollPanel></th>
-            <th><p-scrollPanel [style]="{width: '100%', height: '60px'}">Model</p-scrollPanel></th>
-            <th pTooltip="Manufacturer" tooltipPosition="top"><p-scrollPanel [style]="{width: '100%', height: '60px'}">Manufact.</p-scrollPanel></th>
-            <th pTooltip="Cost In Credits" tooltipPosition="top"><p-scrollPanel [style]="{width: '100%', height: '60px'}">C. in cred.</p-scrollPanel></th>
-            <th><p-scrollPanel [style]="{width: '100%', height: '60px'}">Length</p-scrollPanel></th>
-            <th pTooltip="Max Atmosphering Speed" tooltipPosition="top"><p-scrollPanel [style]="{width: '100%', height: '60px'}">M. Atm.</p-scrollPanel></th>
-            <th><p-scrollPanel [style]="{width: '100%', height: '60px'}">Crew</p-scrollPanel></th>
-            <th><p-scrollPanel [style]="{width: '100%', height: '60px'}">Passengers</p-scrollPanel></th>
-            <th pTooltip="Cargo Capacity" tooltipPosition="top"><p-scrollPanel [style]="{width: '100%', height: '60px'}">C. Capacity</p-scrollPanel></th>
-            <th><p-scrollPanel [style]="{width: '100%', height: '60px'}">Consumables</p-scrollPanel></th>
-            <th pTooltip="Hyperdrive Rating" tooltipPosition="top"><p-scrollPanel [style]="{width: '100%', height: '60px'}">H. Rating</p-scrollPanel></th>
-            <th><p-scrollPanel [style]="{width: '100%', height: '60px'}">MGLT</p-scrollPanel></th>
-            <th pTooltip="Starship Class" tooltipPosition="top"><p-scrollPanel [style]="{width: '100%', height: '60px'}">S. Class</p-scrollPanel></th>
+            <th>Name</th>
+            <th>Model</th>
+            <th pTooltip="Manufacturer" tooltipPosition="top">Manuf.</th>
+            <th pTooltip="Cost In Credits" tooltipPosition="top">C. Cred.</th>
+            <th>Length</th>
+            <th pTooltip="Max Atmosphering Speed" tooltipPosition="top">M. Atm.</th>
+            <th>Crew</th>
+            <th pTooltip="Passengers" tooltipPosition="top">Passen.</th>
+            <th pTooltip="Cargo Capacity" tooltipPosition="top">C. C.</th>
+            <th pTooltip="Consumables" tooltipPosition="top">Consum.</th>
+            <th pTooltip="Hyperdrive Rating" tooltipPosition="top">H. Rating</th>
+            <th>MGLT</th>
+            <th pTooltip="Starship Class" tooltipPosition="top">S. Class</th>
           </tr>
         </ng-template>
 
         <ng-template pTemplate="body" let-starships>
           <tr>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ starships.name }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ starships.model }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ starships.manufacturer }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ starships.cost_in_credits }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ starships.length }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ starships.max_atmosphering_speed }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ starships.crew }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ starships.passengers }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ starships.cargo_capacity }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ starships.consumables }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ starships.hyperdrive_rating }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ starships.MGLT }}</p-scrollPanel></td>
-            <td><p-scrollPanel [style]="{width: '100%', height: '60px'}">{{ starships.starship_class }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ starships.name }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ starships.model }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ starships.manufacturer }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ starships.cost_in_credits }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ starships.length }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ starships.max_atmosphering_speed }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ starships.crew }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ starships.passengers }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ starships.cargo_capacity }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ starships.consumables }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ starships.hyperdrive_rating }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ starships.MGLT }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ starships.starship_class }}</p-scrollPanel></td>
           </tr>
         </ng-template>
       </p-table>

@@ -1,6 +1,15 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22691244/74758230-d2c44f80-5255-11ea-9065-868a194a45b8.png" width="150" title="Swui Logo">
 </p>
+<br />
+<p align="center">
+<a href="https://travis-ci.com/carloskotacho/swui">
+  <img src="https://travis-ci.com/carloskotacho/swui.svg?branch=master" alt="Build Status" height="21">
+</a>
+  <a href="#">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" height="22">
+</a>
+</p>
 
 ## Libs
 

@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
-import { PersonService } from '../person.service';
+import { LazyLoadEvent } from 'primeng/components/common/api';
+
+import { PersonService, PersonFilter } from '../person.service';
 
 @Component({
   selector: 'app-person-search',
@@ -9,6 +11,8 @@ import { PersonService } from '../person.service';
 })
 export class PersonSearchComponent implements OnInit {
 
+  totalRecords = 0;
+  filter = new PersonFilter();
   persons = [];
 
   constructor(private personService: PersonService) {}
@@ -17,10 +21,18 @@ export class PersonSearchComponent implements OnInit {
     this.search();
   }
 
-  search() {
-    this.personService.search()
+  search(page = 1) {
+    this.filter.page = page;
+
+    this.personService.search(this.filter)
       .then(persons => {
-        this.persons = persons;
+        this.totalRecords = persons.count;
+        this.persons = persons.results;
       });
+  }
+
+  whenChangingPage(event: LazyLoadEvent) {
+    const page = (event.first / event.rows) + 1;
+    this.search(page);
   }
 }

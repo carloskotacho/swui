@@ -6,6 +6,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { PersonService } from '../persons/person.service';
 import { FilmService } from './../films/film.service';
+import { StarshipService } from '../starships/starship.service';
 
 @NgModule({
   imports: [
@@ -22,7 +23,8 @@ import { FilmService } from './../films/film.service';
   ],
   providers: [
     PersonService,
-    FilmService
+    FilmService,
+    StarshipService
   ]
 })
 export class CoreModule { }

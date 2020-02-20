@@ -1,4 +1,3 @@
-import { VehiclesModule } from './vehicles/vehicles.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
@@ -9,6 +8,8 @@ import { AppComponent } from './app.component';
 import { PersonsModule } from './persons/persons.module';
 import { FilmsModule } from './films/films.module';
 import { StarshipsModule } from './starships/starships.module';
+import { VehiclesModule } from './vehicles/vehicles.module';
+import { SpeciesModule } from './species/species.module';
 import { CoreModule } from './core/core.module';
 
 @NgModule({
@@ -24,6 +25,7 @@ import { CoreModule } from './core/core.module';
     FilmsModule,
     StarshipsModule,
     VehiclesModule,
+    SpeciesModule,
     CoreModule,
     AppRoutingModule
   ],

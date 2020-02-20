@@ -1,4 +1,3 @@
-import { VehicleService } from './../vehicles/vehicle.service';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -8,6 +7,8 @@ import { FooterComponent } from './footer/footer.component';
 import { PersonService } from '../persons/person.service';
 import { FilmService } from './../films/film.service';
 import { StarshipService } from '../starships/starship.service';
+import { VehicleService } from './../vehicles/vehicle.service';
+import { SpecieService } from './../species/specie.service';
 
 @NgModule({
   imports: [
@@ -26,7 +27,8 @@ import { StarshipService } from '../starships/starship.service';
     PersonService,
     FilmService,
     StarshipService,
-    VehicleService
+    VehicleService,
+    SpecieService
   ]
 })
 export class CoreModule { }

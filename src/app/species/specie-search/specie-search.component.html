@@ -1,0 +1,60 @@
+<div class="container">
+
+  <div class="ui-g">
+    <div class="ui-g-12">
+      <form autocomplete="off" (ngSubmit)="search()">
+        <div class="ui-g">
+          <div class="ui-g-12">
+            <p>/ Species</p>
+          </div>
+        </div>
+
+        <div class="ui-g-12 ui-md-10 ui-fluid">
+          <input pInputText type="text" name="search" placeholder="Name" [(ngModel)]="filter.search">
+        </div>
+
+        <div class="ui-g-12 ui-md-2 ui-fluid">
+          <button pButton type="submit" label="Search"></button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="ui-g">
+    <div class="ui-g-12">
+      <p-table [value]="species" [paginator]="true" [rows]="filter.itemsForPage" [responsive]="true" [lazy]="true" [totalRecords]="totalRecords" (onLazyLoad)="whenChangingPage($event)">
+        <ng-template pTemplate="emptymessage">
+          No specie found
+        </ng-template>
+
+        <ng-template pTemplate="header">
+          <tr>
+            <th>Name</th>
+            <th pTooltip="Classification" tooltipPosition="top">Classif.</th>
+            <th pTooltip="Designation" tooltipPosition="top">Designa.</th>
+            <th pTooltip="Average Height" tooltipPosition="top">A. Height</th>
+            <th pTooltip="Skin Colors" tooltipPosition="top">S. Colors</th>
+            <th pTooltip="Hair Colors" tooltipPosition="top">H. Colors</th>
+            <th pTooltip="Eye Colors" tooltipPosition="top">E. Colors</th>
+            <th pTooltip="Average Lifespan" tooltipPosition="top">A. lifespan</th>
+            <th>Language</th>
+          </tr>
+        </ng-template>
+
+        <ng-template pTemplate="body" let-species>
+          <tr>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ species.name }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ species.classification }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ species.designation }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ species.average_height }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ species.skin_colors }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ species.hair_colors }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ species.eye_colors }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ species.average_lifespan }}</p-scrollPanel></td>
+            <td><p-scrollPanel [style]="{width: '100%', height: '20px'}">{{ species.language }}</p-scrollPanel></td>
+          </tr>
+        </ng-template>
+      </p-table>
+    </div>
+  </div>
+</div>

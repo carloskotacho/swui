@@ -101,6 +101,11 @@ p{
   margin: 0 0 10px;
 }
 
+.disabled {
+  pointer-events:none;
+  opacity: 0.3;
+}
+
 /* Start - Icons Star Wars */
 .icons-sw {
   float: right;

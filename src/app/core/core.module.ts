@@ -1,13 +1,16 @@
+import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { PersonService } from '../persons/person.service';
+import { FilmService } from './../films/film.service';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   declarations: [
     NavbarComponent,
@@ -18,7 +21,8 @@ import { PersonService } from '../persons/person.service';
     FooterComponent
   ],
   providers: [
-    PersonService
+    PersonService,
+    FilmService
   ]
 })
 export class CoreModule { }

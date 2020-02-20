@@ -55,4 +55,8 @@ body .ui-button:enabled:hover{
 body .ui-button:enabled:focus{
   -webkit-box-shadow: 0 0 7px 0 #ccc;
  }
+
+ body .ui-paginator .ui-paginator-pages .ui-paginator-page.ui-state-active{
+   background-color: #32383e;
+ }
 /* End - Global Primeng */

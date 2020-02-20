@@ -6,7 +6,7 @@
 <a href="https://travis-ci.com/carloskotacho/swui">
   <img src="https://travis-ci.com/carloskotacho/swui.svg?branch=master" alt="Build Status" height="21">
 </a>
-  <a href="#">
+  <a href="https://swui-v1.herokuapp.com/people">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" height="22">
 </a>
 </p>

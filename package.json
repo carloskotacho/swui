@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ng build --prod"
   },
   "private": true,
   "dependencies": {
@@ -28,9 +29,6 @@
     "rxjs-compat": "^6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.8.26",
-    "serialize-javascript": ">=2.1.1"
-  },
-  "devDependencies": {
     "@angular-devkit/build-angular": "^0.13.9",
     "@angular/cli": "~7.2.3",
     "@angular/compiler-cli": "~7.2.0",
@@ -51,5 +49,11 @@
     "tslint": "~5.11.0",
     "typescript": "~3.2.2",
     "serialize-javascript": ">=2.1.1"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.11.2"
   }
 }

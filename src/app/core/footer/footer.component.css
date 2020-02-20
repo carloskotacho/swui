@@ -10,6 +10,7 @@
 
 .copy a{
   color: #485059;
+  margin-left: .5em;
 }
 
 .copy a:hover{

@@ -3,6 +3,8 @@ import { Http, URLSearchParams } from '@angular/http';
 
 import 'rxjs/add/operator/toPromise';
 
+import { environment } from './../../environments/environment';
+
 export class SpecieFilter {
   search: string;
   page = 1;
@@ -17,7 +19,7 @@ export class SpecieService {
   speciesUrl: string;
 
   constructor(private http: Http) {
-    this.speciesUrl = 'https://swapi.co/api/species';
+    this.speciesUrl = `${environment.apiUrl}/species`;
   }
 
   search(filter: SpecieFilter): Promise<any> {

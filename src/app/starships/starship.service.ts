@@ -3,6 +3,8 @@ import { Http, URLSearchParams } from '@angular/http';
 
 import 'rxjs/add/operator/toPromise';
 
+import { environment } from './../../environments/environment';
+
 export class StarshipFilter {
   search: string;
   page = 1;
@@ -17,7 +19,7 @@ export class StarshipService {
   starshipsUrl: string;
 
   constructor(private http: Http) {
-    this.starshipsUrl = 'https://swapi.co/api/starships';
+    this.starshipsUrl = `${environment.apiUrl}/starships`;
   }
 
   search(filter: StarshipFilter): Promise<any> {

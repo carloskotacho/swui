@@ -3,6 +3,8 @@ import { Http, URLSearchParams } from '@angular/http';
 
 import 'rxjs/add/operator/toPromise';
 
+import { environment } from './../../environments/environment';
+
 export class PersonFilter {
   search: string;
   page = 1;
@@ -17,7 +19,7 @@ export class PersonService {
   personsUrl: string;
 
   constructor(private http: Http) {
-    this.personsUrl = 'https://swapi.co/api/people';
+    this.personsUrl = `${environment.apiUrl}/people`;
   }
 
   search(filter: PersonFilter): Promise<any> {

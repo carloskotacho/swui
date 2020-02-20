@@ -10,6 +10,7 @@ import { FilmsModule } from './films/films.module';
 import { StarshipsModule } from './starships/starships.module';
 import { VehiclesModule } from './vehicles/vehicles.module';
 import { SpeciesModule } from './species/species.module';
+import { PlanetsModule } from './planets/planets.module';
 import { CoreModule } from './core/core.module';
 
 @NgModule({
@@ -26,6 +27,7 @@ import { CoreModule } from './core/core.module';
     StarshipsModule,
     VehiclesModule,
     SpeciesModule,
+    PlanetsModule,
     CoreModule,
     AppRoutingModule
   ],

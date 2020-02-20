@@ -1,3 +1,4 @@
+import { PlanetService } from './../planets/planet.service';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -28,7 +29,8 @@ import { SpecieService } from './../species/specie.service';
     FilmService,
     StarshipService,
     VehicleService,
-    SpecieService
+    SpecieService,
+    PlanetService
   ]
 })
 export class CoreModule { }

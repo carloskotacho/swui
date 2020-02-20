@@ -34,12 +34,12 @@
 
 .navbar-menuitem{
   padding: 15px;
-
 }
 
 .navbar-menuitem a{
   color: #c0bbb7;
   text-decoration: none;
+  display: block;
 }
 
 .navbar-menuitem a:hover{
@@ -100,3 +100,9 @@ h1{
 p{
   margin: 0 0 10px;
 }
+
+/* Start - Icons Star Wars */
+.icons-sw {
+  float: right;
+}
+/* End - Icons Star Wars */

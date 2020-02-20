@@ -1,3 +1,4 @@
+import { VehicleService } from './../vehicles/vehicle.service';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -24,7 +25,8 @@ import { StarshipService } from '../starships/starship.service';
   providers: [
     PersonService,
     FilmService,
-    StarshipService
+    StarshipService,
+    VehicleService
   ]
 })
 export class CoreModule { }

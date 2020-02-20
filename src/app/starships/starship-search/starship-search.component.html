@@ -24,7 +24,7 @@
     <div class="ui-g-12">
       <p-table [value]="starships" [paginator]="true" [rows]="filter.itemsForPage" [responsive]="true" [lazy]="true" [totalRecords]="totalRecords" (onLazyLoad)="whenChangingPage($event)">
         <ng-template pTemplate="emptymessage">
-          No people found
+          No starship found
         </ng-template>
 
         <ng-template pTemplate="header">

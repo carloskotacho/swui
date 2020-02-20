@@ -8,6 +8,14 @@
   display: block;
 }
 
+.copy a{
+  color: #485059;
+}
+
+.copy a:hover{
+  color: #ffe300;
+}
+
 .page-footer{
   margin-top: 20px;
   margin-bottom: 20px;

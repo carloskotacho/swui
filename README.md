@@ -11,6 +11,8 @@
 </a>
 </p>
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.4.
+
 ## Libs
 
 - [Star Wars Glyph Icons](http://www.starwarsglyphicons.com)

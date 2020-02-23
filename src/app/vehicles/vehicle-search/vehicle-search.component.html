@@ -24,7 +24,11 @@
     <div class="ui-g-12">
       <p-table [value]="vehicles" [paginator]="true" [rows]="filter.itemsForPage" [responsive]="true" [lazy]="true" [totalRecords]="totalRecords" (onLazyLoad)="whenChangingPage($event)">
         <ng-template pTemplate="emptymessage">
-          No vehicle found
+          <tr>
+            <td colspan="6">
+              No vehicle found
+            </td>
+          </tr>
         </ng-template>
 
         <ng-template pTemplate="header">

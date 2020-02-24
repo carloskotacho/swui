@@ -10,6 +10,7 @@ import { FilmService } from './../films/film.service';
 import { StarshipService } from '../starships/starship.service';
 import { VehicleService } from './../vehicles/vehicle.service';
 import { SpecieService } from './../species/specie.service';
+import { PageNotFoundComponent } from './page-not-found.component';
 
 @NgModule({
   imports: [
@@ -18,7 +19,8 @@ import { SpecieService } from './../species/specie.service';
   ],
   declarations: [
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    PageNotFoundComponent
   ],
   exports: [
     NavbarComponent,

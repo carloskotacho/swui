@@ -11,27 +11,16 @@
 </a>
 </p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.4.
 ## Objective
 
 Consuming external API [swapi](https://swapi.co).
 
-## Requirements
-
-## Usage
-Navigate to:
-
-| URL | Description |
-|--|--|
-| [http://localhost:4200/films](http://localhost:4200/films) | The URL root for Film resources |
-| [http://localhost:4200/people](http://localhost:4200/people) | The URL root for People resources |
-| [http://localhost:4200/planets](http://localhost:4200/planets) | The URL root for Planet resources |
-| [http://localhost:4200/species](http://localhost:4200/species) | The URL root for Species resources |
-| [http://localhost:4200/starships](http://localhost:4200/starships) | The URL root for Starships resources |
-| [http://localhost:4200/vehicles](http://localhost:4200/vehicles) | The URL root for Vehicles resources |
-
 ## Showcase
-GIFs
+
+## Releases
+
+- [Angular CLI](https://github.com/angular/angular-cli) version 7.2.4
+- [Node.js](https://nodejs.org/en/) version 10.16.0
 
 ## Build
 ```
@@ -47,6 +36,18 @@ $ npm install
 # Run the app
 $ ng serve
 ```
+
+## Usage
+Navigate to:
+
+| URL | Description |
+|--|--|
+| [http://localhost:4200/films](http://localhost:4200/films) | The URL root for Film resources |
+| [http://localhost:4200/people](http://localhost:4200/people) | The URL root for People resources |
+| [http://localhost:4200/planets](http://localhost:4200/planets) | The URL root for Planet resources |
+| [http://localhost:4200/species](http://localhost:4200/species) | The URL root for Species resources |
+| [http://localhost:4200/starships](http://localhost:4200/starships) | The URL root for Starships resources |
+| [http://localhost:4200/vehicles](http://localhost:4200/vehicles) | The URL root for Vehicles resources |
 
 ## Libs
 

@@ -12,6 +12,41 @@
 </p>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.4.
+## Objective
+
+Consuming external API [swapi](https://swapi.co).
+
+## Requirements
+
+## Usage
+Navigate to:
+
+| URL | Description |
+|--|--|
+| [http://localhost:4200/films](http://localhost:4200/films) | The URL root for Film resources |
+| [http://localhost:4200/people](http://localhost:4200/people) | The URL root for People resources |
+| [http://localhost:4200/planets](http://localhost:4200/planets) | The URL root for Planet resources |
+| [http://localhost:4200/species](http://localhost:4200/species) | The URL root for Species resources |
+| [http://localhost:4200/starships](http://localhost:4200/starships) | The URL root for Starships resources |
+| [http://localhost:4200/vehicles](http://localhost:4200/vehicles) | The URL root for Vehicles resources |
+
+## Showcase
+GIFs
+
+## Build
+```
+# Clone this repository
+$ git clone https://github.com/carloskotacho/swui.git
+
+# Go into the repository
+$ cd swui
+
+# Build
+$ npm install
+
+# Run the app
+$ ng serve
+```
 
 ## Libs
 
@@ -28,3 +63,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 [![5](https://sourcerer.io/fame/carloskotacho/carloskotacho/swui/images/5)](https://sourcerer.io/fame/carloskotacho/carloskotacho/swui/links/5)
 [![6](https://sourcerer.io/fame/carloskotacho/carloskotacho/swui/images/6)](https://sourcerer.io/fame/carloskotacho/carloskotacho/swui/links/6)
 [![7](https://sourcerer.io/fame/carloskotacho/carloskotacho/swui/images/7)](https://sourcerer.io/fame/carloskotacho/carloskotacho/swui/links/7)
+
+## License
+SWUI is under the MIT license. See the [LICENSE](https://github.com/carloskotacho/swui/blob/master/LICENSE) for more information.

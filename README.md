@@ -15,16 +15,16 @@
 
 Consuming external API [swapi](https://swapi.co).
 
+## Releases
+
+- [Angular CLI](https://github.com/angular/angular-cli) version 7.2.4
+- [Node.js](https://nodejs.org/en/) version 10.16.0
+
 ## Showcase
 
 <p align="center">
   <img alt="swui_gif" src="http://g.recordit.co/Hp177jFMFL.gif">
 </p>
-
-## Releases
-
-- [Angular CLI](https://github.com/angular/angular-cli) version 7.2.4
-- [Node.js](https://nodejs.org/en/) version 10.16.0
 
 ## Build
 ```

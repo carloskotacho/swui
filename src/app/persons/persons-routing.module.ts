@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { PersonSearchComponent } from './person-search/person-search.component';
 
 const routes: Routes = [
-  { path: 'people', component: PersonSearchComponent },
+  { path: '', component: PersonSearchComponent },
 ];
 
 @NgModule({

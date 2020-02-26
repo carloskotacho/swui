@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { FilmSearchComponent } from './film-search/film-search.component';
 
 const routes: Routes = [
-  { path: 'films', component: FilmSearchComponent },
+  { path: '', component: FilmSearchComponent },
 ];
 
 @NgModule({

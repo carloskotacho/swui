@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { PlanetSearchComponent } from './planet-search/planet-search.component';
 
 const routes: Routes = [
-  { path: 'planets', component: PlanetSearchComponent },
+  { path: '', component: PlanetSearchComponent },
 ];
 
 @NgModule({

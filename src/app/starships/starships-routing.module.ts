@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { StarshipSearchComponent } from './starship-search/starship-search.component';
 
 const routes: Routes = [
-  { path: 'starships', component: StarshipSearchComponent },
+  { path: '', component: StarshipSearchComponent },
 ];
 
 @NgModule({

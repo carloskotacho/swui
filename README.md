@@ -13,11 +13,10 @@
     <img src="https://david-dm.org/carloskotacho/swui/status.svg" height="21"/>
   </a>
 </p>
-<p align="center">
-  <a href="https://swui-v1.herokuapp.com">
-    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" height="30">
-  </a>
-</p>
+<br />
+<a href="https://swui-v1.herokuapp.com">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" height="30">
+</a>
 
 ## Objective
 

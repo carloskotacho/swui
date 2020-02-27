@@ -12,6 +12,10 @@
   <a href="https://david-dm.org/carloskotacho/swui" title="dependencies status">
     <img src="https://david-dm.org/carloskotacho/swui/status.svg" height="21"/>
   </a>
+  <a href="https://github.com/carloskotacho/swui/releases">
+    <img src="https://img.shields.io/github/v/release/carloskotacho/swui?colorB=58839b" height="21">
+    
+  </a>
 </p>
 
 ## Objective

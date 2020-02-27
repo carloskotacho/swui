@@ -4,16 +4,18 @@
 <br />
 <p align="center">
   <a href="https://travis-ci.com/carloskotacho/swui">
-    <img src="https://travis-ci.com/carloskotacho/swui.svg?branch=master" alt="Build Status" height="21">
-  </a>
-  <a href="https://swui-v1.herokuapp.com">
-    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" height="22">
+    <img src="https://travis-ci.com/carloskotacho/swui.svg?branch=master" alt="Build Status" height="21"/>
   </a>
   <a href="https://github.com/carloskotacho/swui/blob/master/LICENSE">
-    <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=informational" height="21">
+    <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=informational" height="21"/>
   </a>
   <a href="https://david-dm.org/carloskotacho/swui" title="dependencies status">
-    <img src="https://david-dm.org/carloskotacho/swui/status.svg"/>
+    <img src="https://david-dm.org/carloskotacho/swui/status.svg" height="21"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://swui-v1.herokuapp.com">
+    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" height="30">
   </a>
 </p>
 

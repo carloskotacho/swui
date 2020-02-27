@@ -12,6 +12,9 @@
   <a href="https://github.com/carloskotacho/swui/blob/master/LICENSE">
     <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=critical" height="21">
   </a>
+  <a href="https://david-dm.org/carloskotacho/swui" title="dependencies status">
+    <img src="https://david-dm.org/carloskotacho/swui/status.svg"/>
+  </a>
 </p>
 
 ## Objective

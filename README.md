@@ -20,7 +20,7 @@
 
 ## Objective
 
-Consuming external API [swapi](https://swapi.co).
+Consuming external API [swapi](https://swapi.dev).
 
 ## Deploy
 
